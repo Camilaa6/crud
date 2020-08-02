@@ -80,10 +80,7 @@ def aluno(request):
 
 def aluno_edit(request, pk):
     aluno = Aluno.objects.get(pk=pk)
-    #aluno2 = Aluno.objects.filter(nomeAl = 'Ana')
-    #print(aluno2)
-    #instrutor1 = Instrutor.objects.get(nome='Abc')
-    #print(instrutor1)
+
 
     form= AlunoForm(request.POST or None, instance=aluno)
 

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd159193-f37e-454d-aacf-9c586d789444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Crud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/migrations/0002_auto_20200725_2134.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/migrations/0003_turma_instrutor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/migrations/0004_auto_20200725_2157.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/migrations/0005_auto_20200731_2129.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/migrations/0006_auto_20200731_2314.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/aluno.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/aluno_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/atividade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/atividade_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/chamada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/chamada_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/instrutor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/instrutor_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/telefone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/telefone_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/turma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/templates/turma_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processos/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1f47owcY0W1rIuqAb7YgriK6AHC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd159193-f37e-454d-aacf-9c586d789444" name="Default Changelist" comment="" />
+      <created>1595465689419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595465689419</updated>
+    </task>
+    <servers />
+  </component>
+</project>
