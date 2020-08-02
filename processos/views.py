@@ -8,7 +8,9 @@ from .forms import *
 # Create your views here.
 ######## Cliente
 
+def home(request):
 
+    return render(request, 'base.html')
 
 def instrutor(request):
     instrutor = Instrutor.objects.all()
