@@ -32,34 +32,35 @@
                         <thead>
                         <tr>
                             <th>Nome</th>
-                            <th>Endereço</th>
-                            <th>Telefone</th>
-                            <th>Peso</th>
-                            <th>Altura</th>
-                            <th>Data Matrícula</th>
-                            <th>Turma</th>
+                            <th>Contato</th>
+                            <th>Email</th>
+                            <th>Cidade</th>
+                            <th>Bairro</th>
+                            <th>Rua</th>
+                            <th>Nº</th>
                             <th>Ações</th>
 
                         </tr>
                         </thead>
                         <tbody>
-{% for u in aluno %}
- <tr>
-                                <td>{{ u.nomeAl }}</td>
-                                <td>{{ u.endereco }}</td>
-                                <td>{{ u.telefoneA }}</td>
-                                <td>{{ u.peso }}</td>
-                                <td>{{ u.altura }}</td>
-                                <td>{{ u.dataMat }}</td>
-                                <td>{{ u.turma }}</td>
+
+                        {% for u in cliente %}
+                            <tr>
+                                <td>{{ u.nome }}</td>
+                                <td>{{ u.contato }}</td>
+                                <td>{{ u.email }}</td>
+                                <td>{{ u.cidade }}</td>
+                                <td>{{ u.bairro }}</td>
+                                <td>{{ u.rua }}</td>
+                                <td>{{ u.numero }}</td>
 
 
                                 <td>
-                                    <a href="{% url 'aluno_edit' u.id %}" data-toggle="modal"
+                                    <a href="{% url 'cliente_edit' u.id %}" data-toggle="modal"
                                        data-target="#myModal{{ u.id }}">
                                         <button type="button" class="btn btn-xs btn-warning">Editar</button>
                                     </a>
-                                    <a href="{% url 'aluno_delete' u.id %}">
+                                    <a href="{% url 'cliente_delete' u.id %}">
                                         <button type="button" class="btn btn-xs btn-danger">Apagar</button>
                                     </a>
 
@@ -79,7 +80,8 @@
                             </div>
 
 
-{% endfor %}
+                        {% endfor %}
+
 
                         </tfoot>
                     </table>
