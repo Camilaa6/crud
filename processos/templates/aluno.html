@@ -1,0 +1,18 @@
+<form method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+    <button type="submit" class="btn btn-success">Cadastrar</button>
+</form>
+
+{% for u in aluno %}
+<tr>
+    <td><a href="{% url 'aluno_edit' u.id %}">{{ u.nomeAl }}</a></td>
+    <td>{{ u.turma }}</td>
+    <td>{{ u.dataMat }}</td>
+    <a href="{% url 'aluno_delete' u.id %}">
+     <button type="button" class="btn btn-xs btn-danger">Apagar</button>
+    </a> <br>
+
+</tr>
+{% endfor %}

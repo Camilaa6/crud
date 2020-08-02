@@ -1,0 +1,18 @@
+<form method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+    <button type="submit" class="btn btn-success">Cadastrar</button>
+</form>
+
+{% for u in chamada %}
+<tr>
+    <td><a href="{% url 'chamada_edit' u.id %}">{{ u.presenca }}</a></td>
+    {% for i in u.codigoA.all %}
+    <td>{{i.nomeAl}}</td>
+    {% endfor %}<br>
+
+</tr>
+{% endfor %}
+
+{{data}}

@@ -1,0 +1,17 @@
+<form method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+    <button type="submit" class="btn btn-success">Cadastrar</button>
+</form>
+
+{% for u in telefone %}
+<tr>
+    <td><a href="{% url 'telefone_edit' u.id %}">{{ u.pertence}}</a></td>
+    <td>{{ u.numero }}</td>
+     <a href="{% url 'telefone_delete' u.id %}">
+     <button type="button" class="btn btn-xs btn-danger">Apagar</button>
+    </a> <br>
+
+</tr>
+{% endfor %}
